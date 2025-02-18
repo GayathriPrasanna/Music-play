@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Changes Music Player</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="player">
+        <img src ="one direction.jpg" alt="Night Changes Poster" class ="poster">
+        <h2>Night Changes - One Direction</h2>
+        <audio id="audioPlayer" controls>
+            <source src="song.mp3" type="audio/mp3">
+        </audio>
+        <div class="controls">
+            <button id="playPauseBtn">Play</button>
+            <input type="range" id="seekBar" value="0" step="1" min="0">
+            <span id="currentTime">0:00</span> / <span id="duration">0:00</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
